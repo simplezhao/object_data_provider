@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "object_data_provider"
+version = "0.1.0"
+description = "quick use cloud storage or database"
+authors = ["simplezhao <zhaogang@smart-lifestyle.cn>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "^2.28.1"
+esdk-obs-python = "^3.22.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
